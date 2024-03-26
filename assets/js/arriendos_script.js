@@ -1,4 +1,4 @@
-let contenidoArriendos = '';
+let sumArriendos = '';
       const arriendo1 = document.querySelector('.arriendos');
 
       for (const arriendo of propiedades_arriendo) {
@@ -20,8 +20,8 @@ let contenidoArriendos = '';
               <i class="fas fa-map-marker-alt"></i> ${arriendo.ubicacion}
             </p>
             <p>
-              <i class="fas fa-bed"></i> ${arriendo.habitaciones} Habitaciones |
-              <i class="fas fa-bath"></i> ${arriendo.banos} Baños
+              <i class="fas fa-bed"></i> ${arriendo.cuartos} Habitaciones |
+              <i class="fas fa-bath"></i> ${arriendo.baños} Baños
             </p>
             <p><i class="fas fa-dollar-sign"></i> ${arriendo.costo}</p>
             <p class="${arriendo.smoke ? 'text-success' : 'text-danger'}">
@@ -39,9 +39,9 @@ let contenidoArriendos = '';
       </div>
               `;
 
-        contenidoArriendos += arriendoHtml;
+        sumArriendos += arriendoHtml;
       }
 
-      arriendo1.innerHTML = contenidoArriendos;
+      arriendo1.innerHTML = sumArriendos;
 
       

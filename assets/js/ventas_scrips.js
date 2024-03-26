@@ -21,18 +21,18 @@ let sumVentas = '';
               <i class="fas fa-map-marker-alt"></i> ${venta2.ubicacion}
             </p>
             <p>
-              <i class="fas fa-bed"></i> ${venta2.habitaciones} Habitaciones |
-              <i class="fas fa-bath"></i> ${venta2.banos} Baños
+              <i class="fas fa-bed"></i> ${venta2.cuartos} Habitaciones |
+              <i class="fas fa-bath"></i> ${venta2.baños} Baños
             </p>
             <p><i class="fas fa-dollar-sign"></i> ${venta2.costo}</p>
             <p class="${venta2.smoke ? 'text-success' : 'text-danger'}">
               <i class="fas fa-smoking${venta2.smoke ? '' : '-ban'}"></i> ${
-          venta2.smoke ? 'Permitido fumar' : 'No se permite fumar'
+          venta2.smoke ? 'Puedes fumar' : 'No puedes fumar'
         }
             </p>
             <p class="${venta2.pets ? 'text-success' : 'text-danger'}">
               <i class="fa-solid fa-${venta2.pets ? 'paw' : 'ban'}"></i> ${
-          venta2.pets ? 'Mascotas permitidas' : 'No se permiten mascotas'
+          venta2.pets ? 'Se permiten mascotas' : 'No se permiten mascotas'
         }
             </p>
           </div>
