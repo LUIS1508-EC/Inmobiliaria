@@ -7,8 +7,8 @@ const propiedades_venta = [
         cuartos: 3,
         baños: 2,
         costo: 5000,
-        smoke: false,
-        pets: false,
+        fumar: false,
+        mascotas: false,
 
     },
     {
@@ -19,8 +19,8 @@ const propiedades_venta = [
         cuartos:"5",
         baños: 3,
         costo: 1200,
-        smoke: true,
-        pets: true,
+        fumar: true,
+        mascotas: true,
     },
     {
         nombre:"Penthouse de lujo con terraza panorámica",
@@ -30,8 +30,8 @@ const propiedades_venta = [
         cuartos: 3,
         baños: 3,
         costo: 4500,
-        smoke: false,
-        pets: true,
+        fumar: false,
+        mascotas: true,
     },
     {
         nombre:"Apartamento en el centro de la ciudad",
@@ -41,8 +41,8 @@ const propiedades_venta = [
         cuartos: 3,
         baños: 3,
         costo: 4500,
-        smoke: false,
-        pets: true,
+        fumar: false,
+        mascotas: true,
     },
     {
         nombre:" Apartamento luminoso con vista al mar",
@@ -52,8 +52,8 @@ const propiedades_venta = [
         cuartos: 5,
         baños: 2,
         costo: 7600,
-        smoke: true,
-        pets: false,
+        fumar: true,
+        mascotas: false,
     },
     {
         nombre:"Condominio moderno en zona residencial",
@@ -63,8 +63,8 @@ const propiedades_venta = [
         cuartos: 3,
         baños: 3,
         costo: 4500,
-        smoke: false,
-        pets: true,
+        fumar: false,
+        mascotas: true,
     }
 ]
 
@@ -77,8 +77,8 @@ const propiedades_arriendo = [
         cuartos: 3,
         baños: 2,
         costo: 5000,
-        smoke: false,
-        pets: false,
+        fumar: false,
+        mascotas: false,
 
     },
     {
@@ -89,8 +89,8 @@ const propiedades_arriendo = [
         cuartos:"5",
         baños: 3,
         costo: 1200,
-        smoke: true,
-        pets: true,
+        fumar: true,
+        mascotas: true,
     },
     {
         nombre:"Penthouse de lujo con terraza panorámica",
@@ -100,8 +100,8 @@ const propiedades_arriendo = [
         cuartos: 3,
         baños: 3,
         costo: 4500,
-        smoke: false,
-        pets: true,
+        fumar: false,
+        mascotas: true,
     },
     {
         nombre:"Apartamento en el centro de la ciudad",
@@ -111,8 +111,8 @@ const propiedades_arriendo = [
         cuartos: 3,
         baños: 3,
         costo: 4500,
-        smoke: false,
-        pets: true,
+        fumar: false,
+        mascotas: true,
     },
     {
         nombre:" Apartamento luminoso con vista al mar",
@@ -122,8 +122,8 @@ const propiedades_arriendo = [
         cuartos: 5,
         baños: 2,
         costo: 7600,
-        smoke: true,
-        pets: false,
+        fumar: true,
+        mascotas: false,
     },
     {
         nombre:"Condominio moderno en zona residencial",
@@ -133,7 +133,7 @@ const propiedades_arriendo = [
         cuartos: 3,
         baños: 3,
         costo: 4500,
-        smoke: false,
-        pets: true,
+        fumar: false,
+        mascotas: true,
     }
 ]

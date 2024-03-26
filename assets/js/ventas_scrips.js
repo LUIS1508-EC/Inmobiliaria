@@ -25,14 +25,14 @@ let sumVentas = '';
               <i class="fas fa-bath"></i> ${venta2.baños} Baños
             </p>
             <p><i class="fas fa-dollar-sign"></i> ${venta2.costo}</p>
-            <p class="${venta2.smoke ? 'text-success' : 'text-danger'}">
-              <i class="fas fa-smoking${venta2.smoke ? '' : '-ban'}"></i> ${
-          venta2.smoke ? 'Puedes fumar' : 'No puedes fumar'
+            <p class="${venta2.fumar ? 'text-success' : 'text-danger'}">
+              <i class="fas fa-smoking${venta2.fumar ? '' : '-ban'}"></i> ${
+          venta2.fumar ? 'Puedes fumar' : 'No puedes fumar'
         }
             </p>
-            <p class="${venta2.pets ? 'text-success' : 'text-danger'}">
-              <i class="fa-solid fa-${venta2.pets ? 'paw' : 'ban'}"></i> ${
-          venta2.pets ? 'Se permiten mascotas' : 'No se permiten mascotas'
+            <p class="${venta2.mascotas ? 'text-success' : 'text-danger'}">
+              <i class="fa-solid fa-${venta2.mascotas ? 'paw' : 'ban'}"></i> ${
+          venta2.mascotas ? 'Se permiten mascotas' : 'No se permiten mascotas'
         }
             </p>
           </div>

@@ -24,14 +24,14 @@ let sumArriendos = '';
               <i class="fas fa-bath"></i> ${arriendo.baños} Baños
             </p>
             <p><i class="fas fa-dollar-sign"></i> ${arriendo.costo}</p>
-            <p class="${arriendo.smoke ? 'text-success' : 'text-danger'}">
-              <i class="fas fa-smoking${arriendo.smoke ? '' : '-ban'}"></i> ${
-          arriendo.smoke ? 'Puedes fumar' : 'No puedes fumar'
+            <p class="${arriendo.fumar ? 'text-success' : 'text-danger'}">
+              <i class="fas fa-smoking${arriendo.fumar ? '' : '-ban'}"></i> ${
+          arriendo.fumar ? 'Puedes fumar' : 'No puedes fumar'
         }
             </p>
-            <p class="${arriendo.pets ? 'text-success' : 'text-danger'}">
-              <i class="fa-solid fa-${arriendo.pets ? 'paw' : 'ban'}"></i> ${
-          arriendo.pets ? 'Se permiten mascotas' : 'No se permiten mascotas'
+            <p class="${arriendo.mascotas ? 'text-success' : 'text-danger'}">
+              <i class="fa-solid fa-${arriendo.mascotas ? 'paw' : 'ban'}"></i> ${
+          arriendo.mascotas ? 'Se permiten mascotas' : 'No se permiten mascotas'
         }
             </p>
           </div>
