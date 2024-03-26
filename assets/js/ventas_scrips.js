@@ -1,8 +1,8 @@
 let sumVentas = '';
-      const venta1 = document.querySelector('.ventas');
+const venta1 = document.querySelector('.ventas');
 
-      for (const venta2 of propiedades_venta) {
-        const ventaHtml = `
+for (const venta2 of propiedades_venta) {
+  const ventaHtml = `
       <div class="col-md-4 mb-4">
         <div class="card">
           <img
@@ -26,21 +26,19 @@ let sumVentas = '';
             </p>
             <p><i class="fas fa-dollar-sign"></i> ${venta2.costo}</p>
             <p class="${venta2.fumar ? 'text-success' : 'text-danger'}">
-              <i class="fas fa-smoking${venta2.fumar ? '' : '-ban'}"></i> ${
-          venta2.fumar ? 'Puedes fumar' : 'No puedes fumar'
-        }
+              <i class="fas fa-smoking${venta2.fumar ? '' : ''}"></i> ${venta2.fumar ? 'Puedes fumar' : 'No puedes fumar'
+    }
             </p>
             <p class="${venta2.mascotas ? 'text-success' : 'text-danger'}">
-              <i class="fa-solid fa-${venta2.mascotas ? 'paw' : 'ban'}"></i> ${
-          venta2.mascotas ? 'Se permiten mascotas' : 'No se permiten mascotas'
-        }
+              <i class="fa-solid fa-${venta2.mascotas ? 'paw' : 'ban'}"></i> ${venta2.mascotas ? 'Se permiten mascotas' : 'No se permiten mascotas'
+    }
             </p>
           </div>
         </div>
       </div>
               `;
 
-        sumVentas += ventaHtml;
-      }
+  sumVentas += ventaHtml;
+}
 
-      venta1.innerHTML = sumVentas;
+venta1.innerHTML = sumVentas;

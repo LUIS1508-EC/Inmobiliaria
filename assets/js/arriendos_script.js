@@ -1,8 +1,8 @@
 let sumArriendos = '';
-      const arriendo1 = document.querySelector('.arriendos');
+const arriendo1 = document.querySelector('.arriendos');
 
-      for (const arriendo of propiedades_arriendo) {
-        const arriendoHtml = `
+for (const arriendo of propiedades_arriendo) {
+  const arriendoHtml = `
       <div class="col-md-4 mb-4">
         <div class="card">
           <img
@@ -25,23 +25,21 @@ let sumArriendos = '';
             </p>
             <p><i class="fas fa-dollar-sign"></i> ${arriendo.costo}</p>
             <p class="${arriendo.fumar ? 'text-success' : 'text-danger'}">
-              <i class="fas fa-smoking${arriendo.fumar ? '' : '-ban'}"></i> ${
-          arriendo.fumar ? 'Puedes fumar' : 'No puedes fumar'
-        }
+              <i class="fas fa-smoking${arriendo.fumar ? '' : ''}"></i> ${arriendo.fumar ? 'Puedes fumar' : 'No puedes fumar'
+    }
             </p>
             <p class="${arriendo.mascotas ? 'text-success' : 'text-danger'}">
-              <i class="fa-solid fa-${arriendo.mascotas ? 'paw' : 'ban'}"></i> ${
-          arriendo.mascotas ? 'Se permiten mascotas' : 'No se permiten mascotas'
-        }
+              <i class="fa-solid fa-${arriendo.mascotas ? 'paw' : 'ban'}"></i> ${arriendo.mascotas ? 'Se permiten mascotas' : 'No se permiten mascotas'
+    }
             </p>
           </div>
         </div>
       </div>
               `;
 
-        sumArriendos += arriendoHtml;
-      }
+  sumArriendos += arriendoHtml;
+}
 
-      arriendo1.innerHTML = sumArriendos;
+arriendo1.innerHTML = sumArriendos;
 
-      
+
